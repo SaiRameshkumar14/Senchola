@@ -4,17 +4,6 @@ body, h1, p {
     padding: 0;
   }
   
-  /* Style for background image */
-  .background-image {
-    background-image: url(''); /* Replace with your image file */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
   /* Style for content container */
   .content {
     text-align: center;
