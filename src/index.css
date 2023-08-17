@@ -6,7 +6,7 @@ body, h1, p {
   
   /* Style for background image */
   .background-image {
-    background-image: url('https: //unsplash .com/photos/a living room with a television and a toy car ee 6id DGF s .com;'); /* Replace with your image file */
+    background-image: url(''); /* Replace with your image file */
     background-size: cover;
     background-position: center;
     height: 100vh;
