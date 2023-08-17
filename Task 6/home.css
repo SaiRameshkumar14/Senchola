@@ -1,0 +1,145 @@
+/* Style for the body and heading */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for the form container */
+  form {
+    max-width: 70vh;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Style for text inputs */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for radio buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for dropdown (select) */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  
+
+
+
+
+
+
+
+  /* Style for the list container */
+  ul {
+    list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for list items */
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style for links within list items */
+  li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  li a:hover {
+    color: #0056b3;
+  }
+
+
+
+
+
+
+
+  /* Style for the table container */
+table {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for alternating row colors */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for table cells */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  
+  
+  
+  
+  
+  
+  
