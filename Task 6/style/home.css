@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    background-color: #FFD700; /* Adjust the color as needed */
+    padding: 40px;
+    animation: fadeIn 2s;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Adjust the color as needed */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #FFA500; /* Adjust the color as needed */
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    animation: fadeInUp 2s;
+}
+
+#contact {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.menu-item {
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
